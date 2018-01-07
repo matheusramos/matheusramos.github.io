@@ -12,8 +12,9 @@ body {
   padding: 0;
 }
 
-body {
-  background-color: mediumpurple; /* TODO: REMOVE */
+body.gradient {
+  /* ui-gradients timber - source: https://uigradients.com/#Timber */
+  background: linear-gradient(135deg, #fc00ff 0%, #00dbde 100%);
 }
 
 h1 {
@@ -30,8 +31,6 @@ h1 {
 }
 
 .container {
-  background-color: crimson; /* TODO: CHANGE */
-
   height: 100%;
   min-height: 100%;
 
@@ -56,7 +55,7 @@ h1 {
 }
 
 .social-icon {
-  fill: white; /* TODO: CHANGE */
+  fill: antiquewhite;
   height: 3rem;
   width: 3rem;
 }
