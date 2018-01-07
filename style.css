@@ -52,10 +52,5 @@ h1 {
 
 .social-item {
   margin: 0.5rem;
-}
-
-.social-icon {
-  fill: antiquewhite;
-  height: 3rem;
-  width: 3rem;
+  font-size: 3em;
 }
